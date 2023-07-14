@@ -1,0 +1,85 @@
+/* *{
+    margin: 0;
+    padding: 0;
+
+} */
+body{
+    
+    font-family: sans-serif;
+}
+.contact-box{
+    width: 500px;
+    
+    box-shadow: 0 0 20px 0 #9990;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background: url(image/banner1.jpg); */
+    background-size: cover;
+    
+    background-image: linear-gradient(rgba(11, 12, 16,0.7),rgba(11, 12, 16, 0.7)),url(cot4.webp);
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff ;
+    border: 1px solid #fff;
+    /* padding: 12px 34px; */
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 13%;
+    padding: 0.5% 30% 0.5% 30%;
+    border-radius: 30px;
+}
+.hero-btn:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    color: black;
+    transition: 1s;
+    border-radius: 30px;
+
+}
+.contact-box h1{
+    color: #fff;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+.user-input-box{
+    box-shadow: inset -2px 2px 2px #fff;
+    padding: 20px;
+    margin: 0 -20px;
+    border-radius: 10px;
+}
+/* .contact-box .user-input-box textarea */
+.contact-box .user-input-box input{
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+}
